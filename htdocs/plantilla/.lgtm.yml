@@ -1,0 +1,12 @@
+# https://lgtm.com/help/lgtm/customizing-file-classification
+path_classifiers:
+  plugins:
+    - "../Plantilla/"../Plantilla/plugins/extraction:
+  javascript:
+    # https://lgtm.com/help/lgtm/javascript-extraction#customizing-index
+    # The `index` step extracts information from the files in the codebase.
+    index:
+      # Specify a list of files and folders to exclude from extraction.
+      exclude:
+        - bower_components/
+        - docs/assets/js/"../Plantilla/plugins/        - "../Plantilla/plugins/
